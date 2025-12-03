@@ -1,4 +1,4 @@
-import Projetos from './container/projetos'
+import Projetos from './container/projeto'
 import Sidebar from './container/sideBar'
 import Sobre from './container/sobre'
 import EstiloGLobal, { Container } from './Styles'
