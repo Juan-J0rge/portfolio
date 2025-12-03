@@ -21,6 +21,7 @@ export const Container = styled.div`
   display: grid;
   grid-template-columns: 128px auto;
   column-gap: 56px;
+  padding-bottom: 80px
 
 
 
@@ -28,9 +29,5 @@ export const Container = styled.div`
     max-width: 80%;
     display: block;
     padding-top: 16px;
-  }
-
-  img {
-    max-width: 100%;
   }
 `;

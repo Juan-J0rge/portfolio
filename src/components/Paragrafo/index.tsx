@@ -4,7 +4,9 @@ export type Props = {
   //sim, tem q ser children sapoxa, pra poder pegar
   children: string;
   tipo?: string;
+  fontSize?: number;
 }
 
-const Paragrafo = ({children, tipo='principal'}: Props) => <P tipo={tipo}>{children}</P>
+const Paragrafo = ({children, tipo='principal', fontSize}: Props) =>
+   <P fontSize={fontSize} tipo={tipo}>{children}</P>
 export default Paragrafo
